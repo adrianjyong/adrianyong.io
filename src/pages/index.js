@@ -13,7 +13,7 @@ const IndexPage = () => (
       <Image />
     </div>
 
-    <p>I am an engineer in the world of software, currently located in Montreal, Canada.</p>
+    <p>I am an engineer in the world of software, currently located in Montréal, Canada.</p>
     <h6>(Je parle aussi le Français)</h6>
     <p>On the side I dabble in writing, cooking, fashion, music, photography and gaming.</p>
 
