@@ -1,21 +1,43 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import { Box } from '@chakra-ui/core'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import { SocialIcons } from "../components/social"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <SEO title="about me" />
+     
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+
+    <p>I am an engineer in the world of software, currently located in Montreal, Canada.</p>
+    <h6>(Je parle aussi le Français)</h6>
+    <p>On the side I dabble in writing, cooking, fashion, music, photography and gaming.</p>
+
+    <Box>
+      Currently:
+    </Box>
+    <Box>
+      Contributing writer at <a href="https://jttbblog.com/?author=5e28955828786a6ce0a136e9">JTTB Blog</a>
+    </Box>
+    <br />
+
+    <Box>
+      Previously:
+    </Box>
+    <Box>
+      Support Operations Engineer at <a href="https://www.behavox.com/">Behavox</a>
+    </Box>
+    <Box>
+      Junior Support Engineer at <a href="https://www.behavox.com/">Behavox</a>
+    </Box>
+    <br />
+    <SocialIcons />
+
+
   </Layout>
 )
 
