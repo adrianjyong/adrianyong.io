@@ -22,7 +22,9 @@ const IndexPage = () => (
     </Box>
     <Box>
       Web Analytics Developer at <a href="https://www.makeitbloom.com/">Bloom Digital Marketing</a>
-      Contributing writer at <a href="https://jttbblog.com/?author=5e28955828786a6ce0a136e9">JTTB Blog</a>
+    </Box>
+    <Box>
+    Contributing writer at <a href="https://jttbblog.com/?author=5e28955828786a6ce0a136e9">JTTB Blog</a>
     </Box>
     <br />
 
